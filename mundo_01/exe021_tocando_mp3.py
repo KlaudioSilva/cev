@@ -1,5 +1,5 @@
 # Python mundo 01
-# Exercício 022 - Faça um programa que abra e reproduza um áudio mp3.
+# Exercício 021 - Faça um programa que abra e reproduza um áudio mp3.
 # Klaudio Silva.
 
 from time import sleep
