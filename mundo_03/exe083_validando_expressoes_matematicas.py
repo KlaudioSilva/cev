@@ -7,12 +7,12 @@
 
 expr = str(input('Digite a expressão: '))
 pilha = []
-for simb in expr:
-    if simb == '(':
-        pilha.append('(')
-    elif simb == ')':
-        if len(pilha) > 0:
-            pilha.pop()
+for simb in expr:  # para cada simb em expr:
+    if simb == '(':  # se o simb for '(':
+        pilha.append('(')  # a lista pilha recebe um '('
+    elif simb == ')':  # se simb for igual ')':
+        if len(pilha) > 0:  # se o tamanho da lista pilha for maior que 0:
+            pilha.pop()  # elimine o último elemento da lista
         else:
             pilha.append(')')
             break
