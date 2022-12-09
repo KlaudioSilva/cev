@@ -33,7 +33,7 @@ for i, v in enumerate(valores):  # para cada item em valor enumere
     if v == maior:  # se o valor for igual a maior
         print(f'{i}...', end='')  # exibir o item(s), na mesma linha
         
-print(f'O menor valor digitado foi {menor} na posição ', end='')
+print(f'\nO menor valor digitado foi {menor} na posição ', end='')
 for i, v in enumerate(valores):
     if v == menor:
         print(f'{i}...', end='')
