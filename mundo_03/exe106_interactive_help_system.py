@@ -17,7 +17,7 @@ cores = ['\033[m',     # 0 - limpa
 
 
 def ajuda(com):
-    titulo(f'Acessando o manual do comando \'{com}\'', 4)
+    titulo(f'Acessando o manual do comando \'{com}\'', 3)
     print(cores[5], end='')
     help(com)
     print(cores[0], end='')
