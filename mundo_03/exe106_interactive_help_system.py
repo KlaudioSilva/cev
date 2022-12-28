@@ -8,11 +8,12 @@
 from time import sleep
 cores = ['\033[m',     # 0 - limpa
         '\033[1;41m',  # 1 - red
-        '\033[1;42m',  # 2 - green
+        '\033[1;42m',  # 2 - light green
         '\033[1;43m',  # 3 - yellow
         '\033[1;44',   # 4 - blue
         '\033[7;30m',  # 5 - white
         '\033[1;45m'   # 6 - purple
+        '\033[1;36m'   # 7 - green
         ]
 
 
